@@ -125,6 +125,29 @@ img {
 }
 /* Swiper class */
 
+.swiper-button-next,
+.swiper-button-prev{
+  width: initial;
+  height: initial;
+  font-size: 3rem;
+  color: var(--second-color);
+}
+
+.swiper-button-prev{
+  left: 0;
+}
+.swiper-button-next{
+  right: 0;
+}
+
+.swiper-pagination-bullet{
+  background-color: hsl(212, 32%, 40%);
+  opacity: 1;
+}
+
+.swiper-pagination-bullet-active{
+  background-color: var(--second-color);
+}
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
 
